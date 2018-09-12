@@ -23,6 +23,23 @@ body {
   color: $darkGray;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+	background: (170, 251, 255, 0.60)
+}
+
+td {
+	background: (255, 255, 255, 0.20);
+
 .container {
   margin: 0 auto;
   max-width: 740px;
