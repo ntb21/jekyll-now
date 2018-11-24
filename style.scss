@@ -42,12 +42,15 @@ td {
     background: (255, 255, 255, 0.20);
 }
 .container {
+  margin-top: 30px;
+  background: rgba(50, 50, 180, 0.7);
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1000px;
   padding: 0 10px;
   width: 100%;
-  background-colour: rgba(50, 50, 180, 0.80);
-}
+  border-radius: 25px;
+  min-length: 1000px;
+} 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
